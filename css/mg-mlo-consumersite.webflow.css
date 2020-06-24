@@ -538,6 +538,19 @@ a {
   background-color: #fff;
 }
 
+.nav-bar-static {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 300;
+  height: 80px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: #fff;
+}
+
 .nav-container {
   position: relative;
   left: 0%;
@@ -898,21 +911,7 @@ a {
   box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.15);
 }
 
-.navbar-3 {
-  position: static;
-}
 
-.navbar-4 {
-  position: static;
-}
-
-.navbar-5 {
-  position: static;
-}
-
-.navbar-6 {
-  position: static;
-}
 
 .dealer-login-container {
   margin-top: -20px;
@@ -995,6 +994,7 @@ a {
     height: 80px;
     margin-right: 0px;
   }
+
   .icon {
     display: block;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;

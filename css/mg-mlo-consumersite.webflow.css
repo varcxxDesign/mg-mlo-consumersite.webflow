@@ -943,6 +943,15 @@ a {
   background-size: cover;
 }
 
+@media screen and (max-width: 1110px){
+.w-nav[data-collapse="medium"] .w-nav-menu {
+    display: none;
+    }
+   .w-nav[data-collapse="medium"] .w-nav-button {
+    display: block;
+     }
+  }
+  
 @media screen and (max-width: 991px) {
   .benefit {
     padding-left: 82px;
